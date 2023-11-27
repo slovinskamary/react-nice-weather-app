@@ -1,7 +1,7 @@
 import React from "react";
 import ReactAnimatedWeather from "react-animated-weather";
 export default function WeatherIcon(props) {
-  if (props.data === "01d") {
+  if (props.data.code === "01d") {
     return (
       <ReactAnimatedWeather
         icon="CLEAR DAY"
